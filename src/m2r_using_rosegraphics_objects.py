@@ -10,60 +10,77 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher, Mark Hays,
 
 ###############################################################################
 #
-# TODO: 2.
+# DONE: 2.
 #   RUN this program.  Then answer the following,
 #     GETTING HELP AS NEED! (Ask questions!!!)
 #
 #     a. For the RoseGraphics coordinate system:
 #
 #        -- Where is the (0, 0) point on the screen?
-#              WRITE_YOUR_ANSWER_HERE,_REPLACING_THIS
+#              The (0,0) point is on the upper left-hand of the screen.
 #
 #        -- In what direction on the screen
 #           does the positive X-axis point?
-#              WRITE_YOUR_ANSWER_HERE,_REPLACING_THIS
+#              The positive x-axis point goes to the right of the screen.
 #
 #        -- In what direction on the screen
 #           does the positive Y-axis point?
-#              WRITE_YOUR_ANSWER_HERE,_REPLACING_THIS
+#              The positive y-axis point goes down in the screen.
 #
 #     b. Write a line of code that constructs a RoseWindow object:
-#            WRITE_YOUR_ANSWER_HERE,_REPLACING_THIS
+#            window = rg.RoseWindow()
 #
 #     c. What is the default height of a RoseWindow?
 #        (Use the HOVER trick to determine the answer to this question.)
-#            WRITE_YOUR_ANSWER_HERE,_REPLACING_THIS
+#            The default height of a RoseWindow is 300 pixels.
+#            (The default width is 400 pixels.)
 #
 #     d. Write a line of code that construct a RoseWindow object
 #        whose height is 100:  (Use the HOVER trick to figure it out)
-#            WRITE_YOUR_ANSWER_HERE,_REPLACING_THIS
+#            window = rg.RoseWindow(400, 100)
+#            (I left the width at the default)
 #
 #     e. Use the DOT trick to answer the following:
 #
 #          -- Write the names of two types of graphics objects that
 #             you can construct OTHER than Circle and Point:
-#                WRITE_YOUR_ANSWER_HERE,_REPLACING_THIS
+#                1.) rectangle: rg.Rectangle(point1, point2)
+#                    (point1 and point2 are opposite corners)
+#                2.) line: rg.Line(point1,point2)
+#                    (point1 and point2 are the start and end of the line)
+#
+#               There are more than just these types of graphics!
 #
 #          -- Write the names of three METHODs that Circle objects have:
-#                WRITE_YOUR_ANSWER_HERE,_REPLACING_THIS
+#                1.) move/translate: circle.move_center_to(point1, point2)
+#                    (point1 and point2 is the location the center of the circle is moving to)
+#                2.) clone: circle.clone()
+#                    (duplicates)
+#
+#                There are more than these two methods!
 #
 #          -- Write the names of three INSTANCE VARIABLEs that Circle
 #             objects have:
-#                WRITE_YOUR_ANSWER_HERE,_REPLACING_THIS
+#                1.) radius: circle.radius
+#                2.) center: circle.center
+#                3.) thickness: circle.outline_thickness
 #
 #     f. What does a RoseWindow RENDER method do?
-#            WRITE_YOUR_ANSWER_HERE,_REPLACING_THIS
+#            The RENDER method draws the object in the window.
+#            When a point is created, the point must be attached to window and the rendered.
+#            This two-step process is important for animations.
 #
 #     g. When is a RoseWindow close_on_mouse_click method call
 #        necessary?  Why?
-#            WRITE_YOUR_ANSWER_HERE,_REPLACING_THIS
+#            The close_on_mouse_click method keeps the window open until the user clicks to close it.
+#            This is allows the user to see the window and keep it open for as long as needed.
 #
 #   ASK QUESTIONS ** NOW ** if you do not understand how the
 #     RoseGraphics graphics system works.
 #
 #   When you are confident that you have written correct answers
 #   to the above questions (ASK QUESTIONS AS NEEDED!),
-#   change the above TODO to DONE.
+#   change the above _TODO_ to DONE.
 #
 ###############################################################################
 

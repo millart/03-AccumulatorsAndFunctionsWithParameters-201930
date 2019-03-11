@@ -43,3 +43,10 @@ def hello_and_goodbye(person1, person2):
 
 
 main()
+
+import rosegraphics as rg
+
+window = rg.RoseWindow(300,100)
+window.close_on_mouse_click()
+new = rg.Circle(rg.Point(0,0), 5)
+new.outline_thickness = 3
