@@ -4,14 +4,13 @@ This module helps you understand:
   -- the difference between PRINT and RETURN
 
 Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher, Mark Hays,
-         Aaron Wilkin, their colleagues, and PUT_YOUR_NAME_HERE.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+         Aaron Wilkin, their colleagues, and Emily Millard.
+"""  # DONE: 1. PUT YOUR NAME IN THE ABOVE LINE.
 ###############################################################################
 #
-# TODO: 1.
+# DONE: 1.
 #   Allow this module to use the  rosegraphics.py  module by marking the
-#     src
-#   folder in this project as a "Sources Root", as follows:
+#     src folder in this project as a "Sources Root", as follows:
 #
 #     In the Project window (to the left), right click on the src  folder,
 #     then select  Mark Directory As  ~  Sources Root.
@@ -69,10 +68,10 @@ def distance(point):
 main()
 
 ###############################################################################
-# TODO: 2.
+# DONE: 2.
 #
 # READ the following, asking questions as needed.
-# When you believe that you understading what is says about UNIT TESTING,
+# When you believe that you understanding what is says about UNIT TESTING,
 # mark the above TO-DO as DONE.
 #
 #   In most exercises we will follow the  UNIT TESTING
@@ -126,7 +125,7 @@ main()
 # Testing is a BIG topic, but UNIT TESTING like the code above is a start.
 #
 # One more thing:
-# Students sometimes confuse PRINT and RETURN because  you will almost
+# Students sometimes confuse PRINT and RETURN because you will almost
 # always test your functions using this
 #    capture-in-variable-then-print-variable
 # approach.  From that alone, it looks like the function could have
